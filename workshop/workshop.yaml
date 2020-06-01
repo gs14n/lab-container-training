@@ -31,9 +31,9 @@ modules:
     - jobs/cronjob
     - jobs/cronjob-action
     - labels/intro
-    - labels/view
     - labels/deployment
     - labels/selectors
+    - labels/view
     - labels/setting
     - labels/cleanup
     - logs/intro
