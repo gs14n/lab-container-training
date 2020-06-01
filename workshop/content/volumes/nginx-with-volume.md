@@ -17,7 +17,7 @@ IPADDR=$(!!)
 3. Send a request with curl
 
 ```execute
-kubectl run shpod -i --tty --image=jpetazzo/shpod \
+kubectl run shpod -i --tty --image=curlimages/curl \
   --restart=Never --rm -- curl -s $IPADDR
 ```
 

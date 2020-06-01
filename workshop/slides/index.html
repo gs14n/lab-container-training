@@ -5431,7 +5431,7 @@ It runs a single NGINX container.
 
 - Send a request with curl:
   ```bash
-  kubectl run shpod -i --tty --image=jpetazzo/shpod \
+  kubectl run shpod -i --tty --image=curlimages/curl \
    --restart=Never --rm -- curl -s $IPADDR
   ```
 
@@ -5504,7 +5504,7 @@ spec:
 
 - Send a request with curl:
   ```bash
-  kubectl run shpod -i --tty --image=jpetazzo/shpod --restart=Never \
+  kubectl run shpod -i --tty --image=curlimages/curl --restart=Never \
     --rm -- curl -s $IPADDR
   ```
 
